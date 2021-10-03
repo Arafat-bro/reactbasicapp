@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+textarea{
+    resize:  none;
+}
+.navbar{
+    background-color: transparent;
+    text-transform: capitalize;
+}
+.menu_active{
+    color: rgb(33, 20, 220);
+    box-shadow: 0 2px 0 0;
+}
+.brand_name{
+    color: royalblue;
+}
+#header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.header-img img{
+    width: 400px;
+    height: 400px;
+}
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+.card img{
+    width: auto;
+    height: 300px;
+}
